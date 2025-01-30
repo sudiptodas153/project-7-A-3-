@@ -19,6 +19,9 @@
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap"
         rel="stylesheet">
 
+    <!-- Font-Icon -->
+    <script src="https://kit.fontawesome.com/6dfd7984e0.js" crossorigin="anonymous"></script>
+
     <style>
         .sora-font {
             font-family: "Sora", serif;
@@ -32,8 +35,71 @@
 
 <body class="sora-font">
 
-    <h3>sudipto</h3>
+    <header class="container mx-auto">
+        <!-- Navbar -->
+        <nav>
+            <div class="navbar bg-[#FFF9F4] sm:border-b-2">
+                <div class="navbar-start">
 
+                    <a class="text-xl flex items-center gap-2"><img class="w-8" src="./c1-assets/logo-header.png"
+                            alt="">
+                        <h3>Browse<span class="text-[#FFDC26]">4</span>Pets</h3>
+                    </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Find a pet</a></li>
+                        <li><a>Breeds</a></li>
+                        <li><a>Contact us</a></li>
+                    </ul>
+                </div>
+
+                <div class="navbar-end  gap-4">
+                    <div class="dropdown dropdown-left">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-10 w-40 p-2 shadow">
+                            <li><a>Find a pet</a></li>
+                            <li><a>Breeds</a></li>
+                            <li><a>Contact us</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="navbar-end  gap-4 lg:flex items-center hidden">
+                        <a class=""><i class="fa-regular fa-bell"></i></a>
+                        <a class=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a class="btn border-[#FFDC26]">Login</a>
+                        <a class="btn bg-[#FFDC26]">Register</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Banner -->
+        <div class="mt-5  lg:bg-center w-[100%] lg:w-[100%] bg-no-repeat  h-[600px]  lg:bg-cover  px-3 lg:bg-[url('./c1-assets/cat-big.png')]">
+            <div class="-mt-20">
+
+                <div class="relative top-28">
+                    <h3 class="text-2xl lg:text-4xl adl-font text-[#111111]">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h3>
+                    <p class="text-sm mt-4 lg:pr-[520px]">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and
+                        make tails wag with joy!</p>
+                    <button class="btn px-6 mt-5 bg-[#FFDC26]">Find a pet</button>
+                </div>
+
+                <div class="lg:hidden">
+                    <img src="./c1-assets/cat-big.png" alt="">
+                </div>
+               
+            </div>
+        </div>
+    </header>
 </body>
 
 </html>
