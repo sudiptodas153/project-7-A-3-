@@ -37,7 +37,7 @@
 
     <header class="container mx-auto">
         <!-- Navbar -->
-        <nav class="bg-[#FFF9F4] lg:border-none border-b-2 border-gray-400">
+        <nav class="bg-[#FFF9F4] lg:border-none lg:px-10 border-b-2 border-gray-400">
             <div class="navbar ">
                 <div class="navbar-start">
 
@@ -48,9 +48,9 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a>Find a pet</a></li>
-                        <li><a>Breeds</a></li>
-                        <li><a>Contact us</a></li>
+                        <li><a class="hover:bg-lime-500">Find a pet</a></li>
+                        <li><a class="hover:bg-lime-500">Breeds</a></li>
+                        <li><a class="hover:bg-lime-500">Contact us</a></li>
                     </ul>
                 </div>
 
@@ -75,8 +75,8 @@
                     <div class="navbar-end  gap-4 lg:flex items-center hidden">
                         <a class=""><i class="fa-regular fa-bell"></i></a>
                         <a class=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                        <a class="btn border-[#FFDC26]">Login</a>
-                        <a class="btn bg-[#FFDC26]">Register</a>
+                        <a class="btn border-[#FFDC26] hover:bg-pink-400 hover:text-white">Login</a>
+                        <a class="btn hover:bg-pink-400 hover:text-white bg-[#FFDC26]">Register</a>
                     </div>
                 </div>
             </div>
@@ -84,17 +84,17 @@
 
         <!-- Banner -->
         <div
-            class="pt-5 lg:pt-10  lg:bg-center w-[100%] lg:w-[100%] bg-no-repeat  h-[600px]  lg:bg-cover  px-3 lg:bg-[url('./c1-assets/cat-big.png')]">
+            class="pt-5 lg:pt-10 lg:px-10  lg:bg-center w-[100%] lg:w-[100%] bg-no-repeat  h-[600px]  lg:bg-cover  px-3 lg:bg-[url('./c1-assets/cat-big.png')]">
             <div class="-mt-20">
 
                 <div class="relative top-28">
-                    <h3 class="text-2xl lg:text-4xl adl-font text-[#111111]">Pamper Your Pet, <br> Because They Deserve
+                    <h3 class=" text-2xl lg:text-4xl adl-font text-[#111111]">Pamper Your Pet, <br> Because They Deserve
                         <br> the Bes
                     </h3>
                     <p class="text-sm mt-4 lg:pr-[520px]">Discover a world of treats, toys, and essentials handpicked
                         for your furry friends. Shop now and
                         make tails wag with joy!</p>
-                    <button class="btn px-6 mt-5 bg-[#FFDC26]">Find a pet</button>
+                    <button class="animate-bounce btn hover:bg-blue-400 hover:text-white px-6 mt-5 bg-[#FFDC26]">Find a pet</button>
                 </div>
 
                 <div class="lg:hidden">
@@ -108,11 +108,11 @@
     <main class="container mx-auto mb-40 lg:mt-32">
 
         <!-- Browse By Categories -->
-        <section class="px-3">
+        <section class="px-3 lg:px-10">
             <h3 class="adl-font text-3xl mb-10">Browse By Categories</h3>
             <div class="grid lg:grid-cols-6 grid-cols-2 gap-2 lg:gap-4">
 
-                <div class="bg-[#F9DF8A] text-center py-4 rounded-lg">
+                <div class="bg-[#F9DF8A] hover:bg-[#e9c13fde] text-center py-4 rounded-lg">
                     <div class="flex justify-center mb-2">
                         <img class="bg-white rounded-full p-2" src="./c1-assets/dog-cartoon.png" alt="">
                     </div>
@@ -120,7 +120,7 @@
                     <p class="text-xs">3 items</p>
                 </div>
 
-                <div class="bg-[#F9DF8A] text-center py-4 rounded-lg">
+                <div class="bg-[#F9DF8A] hover:bg-[#e9c13fde] text-center py-4 rounded-lg">
                     <div class="flex justify-center mb-2">
                         <img class="bg-white rounded-full p-2" src="./c1-assets/fish-cartoon.png" alt="">
                     </div>
@@ -128,7 +128,7 @@
                     <p class="text-xs">3 items</p>
                 </div>
 
-                <div class="bg-[#F9DF8A] text-center py-4 rounded-lg">
+                <div class="bg-[#F9DF8A] hover:bg-[#e9c13fde] text-center py-4 rounded-lg">
                     <div class="flex justify-center mb-2">
                         <img class="bg-white rounded-full p-2" src="./c1-assets/cat-cartoon.png" alt="">
                     </div>
@@ -136,7 +136,7 @@
                     <p class="text-xs">3 items</p>
                 </div>
 
-                <div class="bg-[#F9DF8A] text-center py-4 rounded-lg">
+                <div class="bg-[#F9DF8A] hover:bg-[#e9c13fde] text-center py-4 rounded-lg">
                     <div class="flex justify-center mb-2">
                         <img class="bg-white rounded-full p-2" src="./c1-assets/bird-cartoon.png" alt="">
                     </div>
@@ -144,7 +144,7 @@
                     <p class="text-xs">3 items</p>
                 </div>
 
-                <div class="bg-[#F9DF8A] text-center py-4 rounded-lg">
+                <div class="bg-[#F9DF8A] hover:bg-[#e9c13fde] text-center py-4 rounded-lg">
                     <div class="flex justify-center mb-2">
                         <img class="bg-white rounded-full p-2" src="./c1-assets/mouse-cartoon.png" alt="">
                     </div>
@@ -152,7 +152,7 @@
                     <p class="text-xs">3 items</p>
                 </div>
 
-                <div class="bg-[#F9DF8A] text-center py-4 rounded-lg">
+                <div class="bg-[#F9DF8A] hover:bg-[#e9c13fde] text-center py-4 rounded-lg">
                     <div class="flex justify-center mb-2">
                         <img class="bg-white rounded-full p-2" src="./c1-assets/rabbit-cartoon.png" alt="">
                     </div>
@@ -167,7 +167,7 @@
         </section>
 
         <!-- Trending Pet Products -->
-        <section class="mt-5 lg:mt-28 bg-[#FFF9F4] py-24 px-3">
+        <section class="mt-5 lg:mt-28 bg-[#FFF9F4] py-24 px-3 lg:px-10">
             <h3 class="adl-font text-3xl mb-10">Trending Pet Products</h3>
 
             <div class="grid grid-cols-1 lg:grid-cols-3  gap-4">
@@ -177,14 +177,14 @@
                         <h3 class="adl-font text-3xl">T-Shirt For Dogs</h3>
                         <p class=" mt-5 text-sm">Made from high-quality, pet-friendly fabric and keeps your dog cool and
                             relaxed.</p>
-                        <button class="btn mt-5 bg-white text-lg">Shop Now</button>
+                        <button class="btn mt-5 hover:bg-blue-400 hover:text-white bg-white text-lg">Shop Now</button>
                     </div>
-                    <img class="absolute max-h-60 bottom-5 right-5" src="./c1-assets/cute-pet-small.png" alt="">
+                    <img class="absolute max-h-60  bottom-5 right-5" src="./c1-assets/cute-pet-small.png" alt="">
                 </div>
 
                 <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 col-span-2">
 
-                    <div class="flex gap-4 p-3 items-center bg-white border-2 border-gray-200 rounded-xl">
+                    <div class="flex gap-4 p-3 items-center hover:bg-lime-300 hover:border-none  bg-white border-2 border-gray-200 rounded-xl">
                         <div>
                             <img class="bg-[#FFF9F4] p-5 rounded-xl" src="./c1-assets/dog-cartoon.png" alt="">
                         </div>
@@ -198,7 +198,7 @@
                         </div>
                     </div>
 
-                    <div class="flex gap-4 p-3 items-center bg-white border-2 border-gray-200 rounded-xl">
+                    <div class="flex gap-4 p-3 items-center hover:bg-lime-300 hover:border-none bg-white border-2 border-gray-200 rounded-xl">
                         <div>
                             <img class="bg-[#FFF9F4] p-5 rounded-xl" src="./c1-assets/fish-cartoon.png" alt="">
                         </div>
@@ -212,7 +212,7 @@
                         </div>
                     </div>
 
-                    <div class="flex gap-4 p-3 items-center bg-white border-2 border-gray-200 rounded-xl">
+                    <div class="flex gap-4 p-3 items-center hover:bg-lime-300 hover:border-none bg-white border-2 border-gray-200 rounded-xl">
                         <div>
                             <img class="bg-[#FFF9F4] p-5 rounded-xl" src="./c1-assets/bird-cartoon.png" alt="">
                         </div>
@@ -226,7 +226,7 @@
                         </div>
                     </div>
 
-                    <div class="flex gap-4 p-3 items-center bg-white border-2 border-gray-200 rounded-xl">
+                    <div class="flex gap-4 p-3 items-center hover:bg-lime-300 hover:border-none bg-white border-2 border-gray-200 rounded-xl">
                         <div>
                             <img class="bg-[#FFF9F4] p-5 rounded-xl" src="./c1-assets/rabbit-cartoon.png" alt="">
                         </div>
@@ -240,7 +240,7 @@
                         </div>
                     </div>
 
-                    <div class="flex gap-4 p-3 items-center bg-white border-2 border-gray-200 rounded-xl">
+                    <div class="flex gap-4 p-3 items-center hover:bg-lime-300 hover:border-none bg-white border-2 border-gray-200 rounded-xl">
                         <div>
                             <img class="bg-[#FFF9F4] p-5 rounded-xl" src="./c1-assets/bird-cartoon.png" alt="">
                         </div>
@@ -254,7 +254,7 @@
                         </div>
                     </div>
 
-                    <div class="flex gap-4 p-3 items-center bg-white border-2 border-gray-200 rounded-xl">
+                    <div class="flex gap-4 p-3 items-center hover:bg-lime-300 hover:border-none bg-white border-2 border-gray-200 rounded-xl">
                         <div>
                             <img class="bg-[#FFF9F4] p-5 rounded-xl" src="./c1-assets/pet-couch.png" alt="">
                         </div>
@@ -268,7 +268,7 @@
                         </div>
                     </div>
 
-                    <div class="flex gap-4 p-3 items-center bg-white border-2 border-gray-200 rounded-xl">
+                    <div class="flex gap-4 p-3 items-center hover:bg-lime-300 hover:border-none bg-white border-2 border-gray-200 rounded-xl">
                         <div>
                             <img class="bg-[#FFF9F4] p-5 rounded-xl" src="./c1-assets/fish-cartoon.png" alt="">
                         </div>
@@ -282,7 +282,7 @@
                         </div>
                     </div>
 
-                    <div class="hidden lg:flex gap-4 p-3 items-center bg-white border-2 border-gray-200 rounded-xl">
+                    <div class="hidden lg:flex gap-4 p-3 items-center hover:bg-lime-300 hover:border-none bg-white border-2 border-gray-200 rounded-xl">
                         <div>
                             <img class="bg-[#FFF9F4] p-5 rounded-xl" src="./c1-assets/pet-couch.png" alt="">
                         </div>
@@ -296,7 +296,7 @@
                         </div>
                     </div>
 
-                    <div class="flex gap-4 p-3 items-center bg-white border-2 border-gray-200 rounded-xl">
+                    <div class="flex gap-4 p-3 items-center hover:bg-lime-300 hover:border-none bg-white border-2 border-gray-200 rounded-xl">
                         <div>
                             <img class="bg-[#FFF9F4] p-5 rounded-xl" src="./c1-assets/rabbit-cartoon.png" alt="">
                         </div>
@@ -315,12 +315,13 @@
         </section>
 
         <!-- Everyday low Price -->
-        <section class="mt-5 lg:mt-28 px-3">
+        <section class="mt-5 lg:mt-28 mb-20 px-3 lg:px-10">
             <h3 class="adl-font text-3xl mb-10">Everyday low Price</h3>
 
             <div class="grid gap-5 grid-cols-1 lg:grid-cols-5">
 
-                <div class="hidden lg:flex items-center justify-center rounded-lg lg:col-span-3 bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD]">
+                <div
+                    class="hidden lg:flex items-center justify-center rounded-lg lg:col-span-3 bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD]">
                     <div>
                         <p class="text-sm">Under Price</p>
                         <h3 class="adl-font text-xl">Pet Grooming Mitt</h3>
@@ -332,7 +333,8 @@
                     </div>
                 </div>
 
-                <div class="lg:hidden relative lg:col-span-2 h-[310px] rounded-lg bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD]">
+                <div
+                    class="lg:hidden relative lg:col-span-2 h-[310px] rounded-lg bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD]">
                     <div class="pt-8 pl-8">
                         <h3 class="adl-font text-2xl">T-Shirt for Dogs</h3>
                         <h2 class="adl-font text-3xl text-white">$7.99</h2>
@@ -354,6 +356,87 @@
             </div>
         </section>
     </main>
+
+    <footer class="flex items-end lg:justify-center  h-[550px] relative bg-[#ffdb268f] lg:h-96 mt-60 lg:mt72 ">
+
+        <div class="absolute w-11/12 left-1/2 -translate-x-1/2 -top-44 bg-[#FFF9F4] rounded-lg  py-10">
+
+            <div class="flex items-center justify-center gap-10 ">
+
+                <div>
+                    <img class="w-52" src="./c1-assets/cute-pet-mid.png" alt="">
+                </div>
+
+                <div class="space-y-4">
+                    <h3 class="adl-font text-2xl">Get Pawsome News!</h3>
+                    <p class="text-sm">Exclusive training tips, ticks, product deals and more.</p>
+                    <input type="text" placeholder="Enter email" class="input   w-full max-w-xs" /> <br>
+                    <button class="btn bg-yellow-300 hover:bg-blue-400 hover:text-white">Subscribe</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class=" px-3 lg:space-x-40 lg:pb-10 lg:px-10 lg:flex lg:items-end justify-between">
+
+            <div class="">
+                <a class="text-xl flex items-center gap-2">
+                    <svg width="28" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3_15)">
+                            <path
+                                d="M31.9968 25.4391C29.8437 22.0696 26.1768 20.0576 22.1875 20.0576C18.1982 20.0576 14.5313 22.0696 12.3785 25.4391L7.19043 33.5583C6.32964 34.9053 5.93246 36.4617 6.04161 38.058C6.15076 39.6547 6.75638 41.1415 7.79277 42.3588C8.82988 43.5749 10.2003 44.4062 11.7558 44.7629C13.3113 45.1196 14.9058 44.9673 16.3667 44.3231L16.4646 44.2795C20.1406 42.6909 24.3413 42.7056 28.0079 44.3231C28.9537 44.7402 29.9558 44.9512 30.967 44.9512C31.5168 44.9512 32.0698 44.8885 32.6178 44.7633C34.1732 44.407 35.5436 43.5757 36.5811 42.3591C37.6179 41.1429 38.2239 39.6558 38.3334 38.0587C38.4429 36.4617 38.0457 34.9056 37.1849 33.558L31.9968 25.4391Z"
+                                fill="#111111" />
+                            <path
+                                d="M8.58784 25.4287C10.1313 24.834 11.3038 23.5863 11.8894 21.9153C12.4468 20.3252 12.4012 18.53 11.7605 16.8601C11.1195 15.1913 9.9535 13.829 8.47723 13.0237C6.92649 12.1781 5.22279 12.0404 3.68191 12.6362C0.581886 13.8319 -0.840721 17.6749 0.511066 21.2048C1.59089 24.0144 4.10938 25.7879 6.65562 25.7879C7.30578 25.7879 7.95776 25.6722 8.58784 25.4287Z"
+                                fill="#111111" />
+                            <path
+                                d="M18.6545 19.0675C22.5299 19.0675 25.6829 15.464 25.6829 11.0347C25.6829 6.60425 22.5299 3 18.6545 3C14.7795 3 11.6269 6.60425 11.6269 11.0347C11.6269 15.464 14.7795 19.0675 18.6545 19.0675Z"
+                                fill="#111111" />
+                            <path
+                                d="M30.7925 21.041H30.7929C31.389 21.2395 31.9972 21.3344 32.6028 21.3344C35.429 21.3344 38.1833 19.2708 39.2343 16.0994C39.8396 14.2738 39.7998 12.3435 39.1223 10.6645C38.4133 8.90665 37.0995 7.63077 35.4225 7.07157C33.745 6.51237 31.9311 6.74564 30.3143 7.72782C28.7697 8.66605 27.5862 10.1884 26.9817 12.014C25.7059 15.865 27.4154 19.9146 30.7925 21.041Z"
+                                fill="#111111" />
+                            <path
+                                d="M45.5935 20.1036L45.5924 20.1025C42.9199 18.122 38.9229 18.9804 36.6819 22.017C34.443 25.0551 34.7931 29.1395 37.4616 31.1214C38.4349 31.8447 39.5848 32.1904 40.7617 32.1904C42.8129 32.1904 44.947 31.1401 46.3736 29.2087C48.6121 26.1706 48.2624 22.0863 45.5935 20.1036Z"
+                                fill="#111111" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_3_15">
+                                <rect width="47.8481" height="48" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+
+                    <h3>Browse<span class="text-[#FFDC26]">4</span>Pets</h3>
+                </a>
+                <p class="text-xs">Discover a world of treats, <br> toys, and essentials handpicked for <br> your furry friends</p>
+            </div>
+
+            <div class="mt-5 space-y-3">
+                <p><a class="font-medium">Find a pet</a></p>
+                <p><a class="font-medium">Breeds</a></p>
+                <p><a class="font-medium">Contact us</a></p>
+            </div>
+
+            <div class="pb-6 mt-5">
+                <h3 class="mb-4">Follow Us</h3>
+                <div class="flex items-center gap-5">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </footer>
 </body>
 
 </html>
